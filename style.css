@@ -66,3 +66,33 @@ details {
     width: 60%;
 }
 
+/* contact.html */
+
+.fa {
+    padding: 10px;
+    margin: 8px;
+    font-size: 45px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-linkedin {
+    background: #0077b5;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-github {
+    background: #55ACEE;
+    color: white;
+  }
