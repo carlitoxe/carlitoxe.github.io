@@ -66,9 +66,22 @@ details {
     width: 60%;
 }
 
-/* contact.html */
+span {
+    font-weight: bold   ;
+}
 
+/* contact.html */
 .fa {
+    padding: 10px;
+    margin: 8px;
+    font-size: 45px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.fa-brands {
     padding: 10px;
     margin: 8px;
     font-size: 45px;
