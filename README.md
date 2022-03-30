@@ -1,4 +1,4 @@
-# Carlos Romero | Porfolio
+# Carlos Romero | Portfolio
 
 ### Hello, World! This is my portfolio. I'm a software engineer speciliazing in web developer (front-end)
 
