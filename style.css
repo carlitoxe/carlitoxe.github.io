@@ -40,6 +40,11 @@ a {
     color: #fff6e5;
 }
 
+.project-description a {
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
 footer {
     margin-top: auto;
     padding: 12px 0;
@@ -64,9 +69,11 @@ details {
 
 .project-image {
     width: 60%;
+    margin-top: 20px;
 }
 
 span {
+    margin-right: 10px;
     font-weight: bold;
 }
 
@@ -98,4 +105,5 @@ span {
 
   .icons {
     text-align: center;
+    margin-top: 30px;
   }
