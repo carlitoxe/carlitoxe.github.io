@@ -38,6 +38,12 @@ a {
     text-decoration: none;
     font-weight: 600;
     color: #fff6e5;
+    opacity: .85
+}
+
+a:hover {
+    opacity: 1;
+    transition: opacity 200ms ease-out;
 }
 
 .project-description a {
