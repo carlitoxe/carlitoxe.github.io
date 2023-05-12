@@ -69,13 +69,24 @@ details {
     cursor: pointer;
 }
 
+.project-link {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 20px;
+}
+
 .project-title h3 {
     display: inline;
+    user-select: none;
 }
 
 .project-image {
-    width: 60%;
-    margin-top: 20px;
+    width: 50%;
+    object-fit: cover;
+}
+
+.project-image-responsive {
+    height: 400px
 }
 
 span {
