@@ -81,11 +81,13 @@ details {
 }
 
 .project-image {
+    border-radius: 8px;
     width: 50%;
     object-fit: cover;
 }
 
 .project-image-responsive {
+    border-radius: 8px;
     height: 400px
 }
 
@@ -123,4 +125,8 @@ span {
   .icons {
     text-align: center;
     margin-top: 30px;
+  }
+
+  .social {
+    text-align: center;
   }
