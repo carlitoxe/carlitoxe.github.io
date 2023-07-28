@@ -25,6 +25,20 @@ h2 {
     font-weight: bold;
 }
 
+.container-project-images {
+    display: flex;
+    /* display:inline-flex; */
+    justify-content: left;
+    gap: 1rem;
+    /* margin-top: 1rem; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.project .project-link {
+    margin-top: 1rem;
+}
+
 .navigation-item {
     margin: 8px;
 }
@@ -38,7 +52,7 @@ nav {
 a {
     text-decoration: none;
     color: #fff6e5;
-}
+} 
 
 .project a {
     text-decoration: none;
@@ -52,7 +66,7 @@ a {
     transition: opacity 200ms ease-out;
 }
 
-.project-description a {
+ .project-description a {
     text-decoration: underline;
     font-weight: lighter;
 }
@@ -76,9 +90,10 @@ details {
 }
 
 .project-link {
-    display: flex;
-    gap: 0.5em;
+    /* gap: 0.5em; */
     margin-top: 20px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .project-title h3 {
@@ -86,21 +101,29 @@ details {
     user-select: none;
 }
 
-.project-image {
+.project-image, .project-image-desktop {
     border-radius: 8px;
-    width: 50%;
+    width: 600px;
+    height: 310px;
     object-fit: cover;
     transition: all .25s ease-in-out;
+    margin-top: 0.8rem;
 }
 
-.project-image:hover, .project-image-responsive:hover { 
+.project-image-desktop {
+    margin-top: 0;
+}
+
+
+.project-image:hover, .project-image-responsive:hover, .project-image-desktop:hover { 
     transform: scale(1.035);
 }
 
 .project-image-responsive {
     border-radius: 8px;
-    height: 400px;
+    height: 310px;
     transition: all .2s ease-in-out;
+    /* margin-top: 0.8rem; */
 }
 
 span {
@@ -143,4 +166,25 @@ span {
 
   .social {
     text-align: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .project-image, .project-image-desktop {
+        border-radius: 8px;
+        width: 350px;
+        height: 180px;
+        object-fit: cover;
+        transition: all .25s ease-in-out;
+        margin-top: 1rem;
+    }
+    .project-image-responsive {
+        border-radius: 8px;
+        height: 310px;
+        transition: all .2s ease-in-out;
+        margin-top: 0;
+    }
+
+    .project-link {
+        margin-top: 0;
+    }
   }
