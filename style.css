@@ -185,6 +185,7 @@ span {
     h1 {
         font-size: 1rem;
         width: min-content;
+        padding-right: 1rem;
     }
     nav {
         padding-top: 0.5rem;
@@ -194,7 +195,6 @@ span {
     }
     .navigation-item {
         margin: 0;
-        font-size: 0.9rem;
     }
     .project-image, .project-image-desktop {
         border-radius: 8px;
