@@ -133,6 +133,7 @@ details {
 span {
     margin-right: 1px;
     font-weight: bold;
+    margin-right: 0.5rem;
 }
 
 /* contact.html */
@@ -172,7 +173,21 @@ span {
     text-align: center;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 1rem;
+        width: min-content;
+    }
+    nav {
+        padding-top: 0.5rem;
+    }
+    .navigation-items {
+        gap: 0.8rem;
+    }
+    .navigation-item {
+        margin: 0;
+        font-size: 0.9rem;
+    }
     .project-image, .project-image-desktop {
         border-radius: 8px;
         width: 350px;
@@ -191,4 +206,12 @@ span {
     .project-link {
         margin-top: 0;
     }
+    .icons {
+        margin: 0;
+    }
+    .fa-brands {
+        font-size: 2rem;
+        width: 30px;
+        margin: 0;
+      }
   }
