@@ -149,7 +149,7 @@ span {
     color: #fff6e5;
     padding: 10px;
     margin: 8px;
-    font-size: 45px;
+    font-size: 52px;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -160,7 +160,7 @@ span {
 .fa-brands {
     padding: 10px;
     margin: 8px;
-    font-size: 45px;
+    font-size: 42px;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -174,7 +174,7 @@ span {
 
   .icons {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0.5rem;
   }
 
   .social {
