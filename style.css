@@ -252,6 +252,9 @@ span {
     .navigation-item {
         margin: 0;
     }
+    .project-image {
+        opacity: 1;
+    }
     /* .project-image {
         border-radius: 8px;
         width: 350px;
