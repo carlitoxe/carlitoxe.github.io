@@ -152,11 +152,11 @@
             <h2>Skills</h2>
             <div class="skills-container">
                 <h3>JavaScript</h3>
-                <p>Four years of experience. High level of skill.</p>
+                <p>Four years of experience.</p>
                 <h3>React</h3>
-                <p>Four years of experience with this library/framework. Medium level of skill.</p>
+                <p>Four years of experience.</p>
                 <h3>HTML5</h3>
-                <p>Four years of experience with HTML5 with a high level of skill.</p>
+                <p>Four years of experience.</p>
                 <h3>CSS3</h3>
                 <p>Four years of experience.</p>
                 <h3>Git & GitHub</h3>
@@ -192,13 +192,19 @@
     const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
     const intlNumberFormatter = new Intl.NumberFormat("en-US");
 
+    // Interval for every se
     setInterval(() => {
       const now = new Date();
+
       const difference = Math.floor(
         (now.getTime() - BIRTH_DAY_DATE.getTime()) / 1000
       );
 
-      timeContainer.innerText = intlNumberFormatter.format(difference);
+      const numFormated = intlNumberFormatter.format(difference);
+      console.log(numFormated);
+      console.log(typeof numFormated);
+
+      timeContainer.innerText = numFormated;
     }, 1000);
     </script>
 </body>
