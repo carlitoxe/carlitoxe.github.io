@@ -168,7 +168,8 @@ details {
 }
 
 .project-image {
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
     width: 100%;
     min-width: 18rem;
     /* min-height: 207px; */
