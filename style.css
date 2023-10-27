@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     padding: 0 1em;
     line-height: 1.5;
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -22,6 +23,34 @@ h2 {
 
 h3 {
     margin: 0;
+}
+
+.download-section {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.download-button {
+    background-color: royalblue;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    /* transition: all 0.35s ease-in-out; */
+}
+
+.download-button:hover {
+    background-color: navy;
+}
+
+
+.fa-file-arrow-down {
+    /* width: 24px; */
+    margin-right: 0.5rem;
+    font-size: 1rem;
 }
 
 .projects-container {
