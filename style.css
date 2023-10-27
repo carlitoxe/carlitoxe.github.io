@@ -55,16 +55,6 @@ h3 {
     font-weight: bold;
 }
 
-/* .container-project-images {
-    display: flex;
-    /* display:inline-flex; */
-    justify-content: left;
-    gap: 1rem;
-    /* margin-top: 1rem; */
-    width: 100%;
-    flex-wrap: wrap;
-} */
-
 .project .project-link {
     margin-top: 1rem;
 }
@@ -222,6 +212,10 @@ span {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+  }
+
+  .fa-node {
+    padding-right: 1.5rem;
   }
   
   /* Add a hover effect if you want */
