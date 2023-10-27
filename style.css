@@ -152,7 +152,7 @@ a {
 .list-technologies {
     display: inline;
     margin: 0;
-    padding: 0 ;
+    padding: 0 0.5rem;
 }
 
 .technology {
