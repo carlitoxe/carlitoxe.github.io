@@ -31,10 +31,10 @@ h3 {
 }
 
 .download-button {
-    background-color: royalblue;
+    background-color: darkblue;
     border: none;
-    border-radius: 1rem;
-    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    padding: 0.8rem 2rem;
     cursor: pointer;
     text-decoration: none;
     font-size: 1rem;
@@ -43,14 +43,14 @@ h3 {
 }
 
 .download-button:hover {
-    background-color: navy;
+    background-color: midnightblue;
 }
 
 
 .fa-file-arrow-down {
     /* width: 24px; */
     margin-right: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .projects-container {
