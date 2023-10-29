@@ -18,7 +18,7 @@ body {
 h2 {
     font-family: "Noto Sans", sans-serif;
     margin: 0;
-    margin-bottom: 12px;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -54,6 +54,7 @@ h3 {
 }
 
 .projects-container {
+    padding-top: 0.5rem;
     display: grid;
     grid-auto-columns: min-content;
     margin: 0 auto;
@@ -205,7 +206,7 @@ a {
 
 footer {
     margin-top: auto;
-    padding: 12px 0;
+    padding: 2rem 0 1rem 0;
     text-align: center;
 }
 
@@ -267,6 +268,10 @@ details {
     /* margin-top: 0.8rem; */
 }
 
+.skill-experience {
+    margin-top: 0.3rem;
+}
+
 span {
     font-weight: bold;
     margin-right: 0.5rem;
@@ -279,8 +284,8 @@ span {
 /* contact.html */
 .fa, .contact-links  {
     color: #fff6e5;
-    padding: 1rem;
-    margin: 8px;
+    padding: 0 1rem;
+    margin: 0 0.5rem;
     font-size: 52px;
     width: 30px;
     text-align: center;
