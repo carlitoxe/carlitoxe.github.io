@@ -168,8 +168,10 @@ a {
     border-color: #ffffff; 
     border-style: solid; 
     font-weight: 500; 
-    color: #ffffff; 
+    color: #fff6e5; 
     font-size: 0.9rem;
+    font-weight: 600;
+    /* background-color: silver; */
 }
 
 .technology:hover {
@@ -184,6 +186,7 @@ a {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     border-top: 1px gray solid;
+    padding-bottom: 0.2rem;
 }
 
 .project-links a {
