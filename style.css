@@ -286,17 +286,13 @@ span {
   }
 
     .icons .fa-brands {
-    padding: 10px;
-    margin: 8px;
+    padding: 0.5rem;
+    margin: 0.5rem;
     font-size: 42px;
-    width: 30px;
+    /* width: 30px; */
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-  }
-
-  .fa-node {
-    padding-right: 1.5rem;
   }
   
   /* Add a hover effect if you want */
