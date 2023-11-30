@@ -31,25 +31,26 @@ h3 {
 }
 
 .pdf-button {
-    background-color: darkblue;
+    background-color: white;
+    color: black;
     border: none;
-    border-radius: 2rem;
-    padding: 0.6rem 2rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
     cursor: pointer;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
-    /* transition: all 0.35s ease-in-out; */
+    transition: all 0.20s ease-in-out;
 }
 
 .pdf-button:hover {
-    background-color: midnightblue;
+    background-color: navy;
+    color: white;
 }
 
 
 .fa-file-pdf {
-    /* width: 24px; */
-    margin-right: 0.5rem;
+    /* width: 24px; */    margin-right: 0.5rem;
     font-size: 1.2rem;
 }
 
@@ -70,10 +71,7 @@ h3 {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
-    /* width: 600px; */
-    /* max-width: 25rem; */
-    /* min-height: 16rem; */
-    /* margin: 0.5rem 0; */
+
 }
 
 .navigation-items {
@@ -106,8 +104,12 @@ nav {
     padding: 1em 0;
 }
 
+nav a {
+    transition: all 0.0s ease-in-out;
+}
+
 nav a:hover {
-    color: crimson;
+    color: rgb(6, 141, 231);
 }
 
 .final-p-aboutme {
@@ -134,7 +136,7 @@ a {
 .project-description, .project-technologies {
     margin: 0;
     font-size: 0.9rem;
-    padding: 0 0.3rem;
+    padding: 0 0.4rem;
 }
 
 .project-description {
@@ -173,36 +175,65 @@ a {
     color: #fff6e5; 
     font-size: 0.9rem;
     font-weight: 600;
-    /* background-color: silver; */
+
 }
 
 .technology:hover {
-    background-color: crimson;
+    background-color: darkblue;
 }
+
 
 .project-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 0;
     margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    padding: 0.8rem 2rem; 
     border-top: 1px gray solid;
-    /* padding-bottom: 0.2rem; */
 }
 
-.project-links a {
+.project-link-a {
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: all 0.20s ease-in-out;
+
+}
+
+.project-link-a:hover {
+    background-color: darkblue;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* .project-links a {
     margin: 0 3rem;
     margin-top: 0.8rem;
-}
+} */
 
 .project-link-icon {
-    font-size: 1.5rem 
+    margin-left: 0.5rem;
+    font-size: 1rem 
 }
 
-.project-link-icon:hover {
-    color: crimson;
+.project-link-ghicon {
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
 }
+
+/* .project-link-icon:hover {
+    color: darkblue;
+} */
 
 footer {
     margin-top: auto;
@@ -224,23 +255,26 @@ details {
 
 .project-title {
     margin-top: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .project-title:hover {
-    color: crimson;
+    color: rgb(6, 141, 231);
+    transition: all 0.20 ease-in-out;
 }
 
 .project-link:hover .project-subtitle {
-    /* gap: 0.5em; */
-        /* width: fit-content;
-        height: fit-content; */
-    color: crimson ;
+    color:  rgb(6, 141, 231);
 }
 
-.project-title:hover {
-    color: crimson;
-    /* display: inline; */
+.project-link:hover {
+    color:  rgb(6, 141, 231); ;
     user-select: none;
+}
+
+.image-wrapper {
+    overflow: hidden;
 }
 
 .project-image {
@@ -248,7 +282,6 @@ details {
     border-top-left-radius: 8px;
     width: 100%;
     min-width: 18rem;
-    /* min-height: 207px; */
     height: auto;
     object-fit: cover;
     opacity: .8;
@@ -259,13 +292,14 @@ details {
 .project-image:hover, .project-image-responsive:hover, .project-image-desktop:hover { 
     opacity: 1;
     transform: scale(1.035);
+    width: 100%;
 }
 
 .project-image-responsive {
     border-radius: 8px;
     height: 310px;
     transition: all .2s ease-in-out;
-    /* margin-top: 0.8rem; */
+
 }
 
 .skill-experience {
@@ -298,13 +332,11 @@ span {
     padding: 0.5rem;
     margin: 0.5rem;
     font-size: 42px;
-    /* width: 30px; */
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
   }
   
-  /* Add a hover effect if you want */
   .contact-links:hover {
     transform: scale(1.2);
   }
@@ -336,14 +368,6 @@ span {
     .project-image {
         opacity: 1;
     }
-    /* .project-image {
-        border-radius: 8px;
-        width: 350px;
-        height: 180px;
-        object-fit: cover;
-        transition: all .25s ease-in-out;
-        margin-top: 1rem;
-    } */
 
     .project-link {
         margin-top: 0;
@@ -356,4 +380,8 @@ span {
         width: 30px;
         margin: 0;
       }
+      .project-link-ghicon {
+        margin-left: 0.2rem;
+        font-size: 1.4rem;
+    }
   }
