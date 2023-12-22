@@ -50,7 +50,8 @@ h3 {
 
 
 .fa-file-pdf {
-    /* width: 24px; */    margin-right: 0.5rem;
+    /* width: 24px; */    
+    margin-left: 0.5rem;
     font-size: 1.2rem;
 }
 
@@ -198,7 +199,7 @@ a {
     color: black;
     font-size: 0.9rem;
     border-radius: 0.5rem;
-    padding: 0.5rem 0.8rem;
+    padding: 0.4rem 1rem;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -209,11 +210,6 @@ a {
 .project-link-a:hover {
     background-color: darkblue;
     color: white;
-    border-radius: 0.5rem;
-    padding: 0.5rem 0.8rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
 }
 
 /* .project-links a {
